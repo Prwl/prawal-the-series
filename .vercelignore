@@ -1,0 +1,7 @@
+# Source photos and backups — the site only uses the generated portraits in public/assets.
+/pic*.png
+/pic*.jpeg
+dist
+node_modules
+.DS_Store
+.claude
