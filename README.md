@@ -1,5 +1,16 @@
 # PRAWAL — THE SERIES
 
+> My career told as a streaming-style series — intro sequence, seasons and episodes.
+
+**Live:** [prawal-the-series.vercel.app](https://prawal-the-series.vercel.app)
+
+<p align="center">
+  <img src="docs/screenshots/desktop.jpg" width="38%" alt="Screenshot" />
+  <img src="docs/screenshots/inside.jpg" width="38%" alt="Screenshot" />
+  <img src="docs/screenshots/mobile.jpg" width="18%" alt="Screenshot" />
+</p>
+
+
 A cinematic, streaming-inspired portfolio for **Prawal Sharma**: Technology Manager and AI-driven engineering leader.
 Every section is an episode, every project is an Original, and the whole site plays like a series.
 
