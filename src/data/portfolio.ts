@@ -78,7 +78,7 @@ export const experience: Job[] = [
         period: 'Jul 2021 – Nov 2024',
         points: [
           'Delivered end-to-end engineering for multiple large-scale applications with 100% client satisfaction and zero escalations, contributing to multi-year client retention.',
-          'Connectors Platform (team of 11): data integration across 200+ sources incl. Facebook Ads and Google Campaign Manager — OAuth flows, ingestion pipelines, enterprise reporting.',
+          'Connectors Platform (team of 11): data integration across 90+ sources incl. Facebook Ads and Google Campaign Manager — OAuth flows, ingestion pipelines, enterprise reporting.',
           'Data Serve: centralized data platform integrating GCP, Azure ADLS, AWS S3 and Snowflake. Enrollment & Transactions: white-labeled ACH debit payments with fraud detection for a US bank.',
         ],
       },
@@ -153,11 +153,11 @@ export const projects: Project[] = [
     title: 'Data Refinery',
     year: 'Since 2019',
     genre: 'Media • Data Platform • Cloud',
-    logline: "A governed media-data activation platform serving 87+ sources across Dentsu International's advertising operations.",
+    logline: "A governed media-data activation platform serving 90+ sources across Dentsu International's advertising operations.",
     stack: ['React', 'TypeScript', 'GraphQL', 'Apollo Server', 'Node.js', 'MongoDB', 'Snowflake'],
     build: [
       'Technical Lead / Team Lead of a three-app model: Connectors for automated source fetches, Trifacta recipes for cleansing and enrichment, and Data Serve for multi-channel delivery to S3, GCP, Snowflake and analytics tools.',
-      'Architected the Connectors platform (team of 11) — 200+ data sources including Facebook Ads and Google Campaign Manager, with OAuth and credential-based authorization, scheduling, ingestion pipelines and enterprise reporting.',
+      'Architected the Connectors platform (team of 11) — 90+ data sources including Facebook Ads and Google Campaign Manager, with OAuth and credential-based authorization, scheduling, ingestion pipelines and enterprise reporting.',
       'Designed Data Serve — a centralized data platform integrating GCP, Azure ADLS, AWS S3 and Snowflake that enabled fully automated, enterprise-grade data pipelines and reduced manual data-ops overhead.',
     ],
     features: [
@@ -168,8 +168,7 @@ export const projects: Project[] = [
       'Self-service reporting without manual engineering',
     ],
     metrics: [
-      { value: '200+', label: 'data sources connected' },
-      { value: '87+', label: 'media sources served' },
+      { value: '90+', label: 'data sources connected' },
       { value: '1–2 days', label: 'source onboarding' },
       { value: '11', label: 'engineers on the Connectors team' },
       { value: '3', label: 'apps: Connectors · Trifacta · Data Serve' },
@@ -617,7 +616,7 @@ export const seasons: Season[] = [
       {
         code: 'S03 E02',
         title: 'The Platforms',
-        description: 'Connectors (200+ sources), Data Serve (GCP, Azure ADLS, S3, Snowflake) and a white-labeled ACH payment platform for a US bank.',
+        description: 'Connectors (90+ sources), Data Serve (GCP, Azure ADLS, S3, Snowflake) and a white-labeled ACH payment platform for a US bank.',
         tags: ['Data Refinery', 'Fintech', 'Cloud'],
         runtime: 'Jul 2021 – Nov 2024',
         palette: ocean,
@@ -705,7 +704,7 @@ export const topPicks: TopPick[] = [
   { label: 'The AI lift', title: '20–30%', detail: 'Productivity gain from AI-assisted workflows', palette: jade },
   { label: 'Biggest honour', title: 'Employee of the Year', detail: 'Successive Digital • 2023', palette: crimson },
   { label: 'Track record', title: '0 Escalations', detail: '100% client satisfaction, multi-year retention', palette: ocean },
-  { label: 'The data Original', title: 'Data Refinery', detail: '200+ sources • 87+ served', palette: violet },
+  { label: 'The data Original', title: 'Data Refinery', detail: '90+ data sources • 1–2 day onboarding', palette: violet },
   { label: 'Cloud trilogy', title: 'AWS · Azure · GCP', detail: 'Certified on all three', palette: amber },
   { label: 'Latest award', title: 'ESOP Ownership', detail: 'Leadership Offsite 2026', palette: crimson },
   { label: 'Global stage', title: 'US · UK · SA', detail: 'Onsite US client delivery • B1/B2', palette: ocean },
@@ -737,7 +736,7 @@ export const introSlides: IntroSlide[] = [
   {
     kicker: 'Originals',
     title: 'Six Originals',
-    lines: ['Data Refinery — 200+ sources connected', 'Enrollment & Transactions — 160K+ daily transactions', 'Plus Taxonomy, an explainable-AI POC, the Praashi visual novel and a live school site'],
+    lines: ['Data Refinery — 90+ sources connected', 'Enrollment & Transactions — 160K+ daily transactions', 'Plus Taxonomy, an explainable-AI POC, the Praashi visual novel and a live school site'],
   },
   {
     kicker: 'Awards',

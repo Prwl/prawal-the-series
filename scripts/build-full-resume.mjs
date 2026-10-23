@@ -1,10 +1,13 @@
-// Generates Prawal_Sharma_Resume_Full.pdf (job-application resume) from src/resume/FullResume.tsx.
-// Serves resume.html with Vite, then prints it to A4 PDF with headless Chromium (playwright-core).
+// Generates the resume PDF from src/resume/FullResume.tsx (rendered by resume-full.html).
+// Writes the site download (public/assets/Prawal_Sharma_Resume.pdf) and a copy at the project root.
+// The prawal-personal-brand site serves the same file — copy it to that project's public/ folder after regenerating.
 // If Chromium is missing, run: npx playwright-core install chromium
+import { copyFileSync } from 'node:fs';
 import { createServer } from 'vite';
 import { chromium } from 'playwright-core';
 
-const OUT = 'Prawal_Sharma_Resume_Full.pdf';
+const OUT = 'public/assets/Prawal_Sharma_Resume.pdf';
+const COPY = 'Prawal_Sharma_Resume_Full.pdf';
 
 const server = await createServer({ server: { port: 5199, strictPort: false }, logLevel: 'error' });
 await server.listen();
@@ -16,7 +19,8 @@ try {
   await page.goto(url, { waitUntil: 'networkidle' });
   await page.evaluate(() => document.fonts.ready);
   await page.pdf({ path: OUT, format: 'A4', preferCSSPageSize: true, printBackground: true });
-  console.log(`resume written: ${OUT}`);
+  copyFileSync(OUT, COPY);
+  console.log(`resume written: ${OUT} (copy: ${COPY})`);
 } finally {
   await browser.close();
   await server.close();

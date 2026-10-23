@@ -53,7 +53,7 @@ The static site is written to `dist/` and can be deployed as-is to Vercel, Netli
 | Profile order (Recruiter / Developer / Creative) | `viewerProfiles` |
 | Opening studio card text | `profile.originalLabel` |
 
-**Resume:** the PDF is generated from `src/data/portfolio.ts` (layout in `src/resume/ResumeDocument.tsx`). After editing the data, regenerate it:
+**Resume:** the downloadable PDF is generated from `src/resume/FullResume.tsx` (2-page, ATS-friendly). It also reuses profile, awards and education from `src/data/portfolio.ts`. After editing, regenerate it — then copy `public/assets/Prawal_Sharma_Resume.pdf` to the personal-brand site's `public/Prawal_Sharma_Resume.pdf`:
 
 ```bash
 npm run resume

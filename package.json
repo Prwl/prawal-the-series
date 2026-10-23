@@ -9,8 +9,7 @@
     "preview": "vite preview",
     "cutout": "swift scripts/cutout.swift pic1.jpeg pic.png",
     "images": "node scripts/build-images.mjs",
-    "resume": "node scripts/build-resume.mjs",
-    "resume:full": "node scripts/build-full-resume.mjs"
+    "resume": "node scripts/build-full-resume.mjs"
   },
   "dependencies": {
     "framer-motion": "11.18.2",
